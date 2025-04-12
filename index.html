@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="kk">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Олжас & Дильмира Үйлену той</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/ScrollTrigger.min.js"></script>
+</head>
+<body>
+
+	<main class="scroll-container">
+		
+		<section class="snap-section image-view mb">
+			<div class="content">
+				<h1 class="mb">Олжас & Дильмира</h1>
+				<h3 class="mb">Үйлену той</h3>
+				<p class="text-base">Сіздерді балаларымыз<br>Олжас пен Дильмираның<br>үйлену тойына арналған салтанатты ақ дастарханымызға шақырамыз!</p>
+			</div>
+		</section>
+		
+		<section class="snap-section image-view">
+			<div class="content">
+				<h3 class="mb">Той салтанаты:</h3>
+				<p class="text-base mb">16 тамыз, 2025 жыл</p>
+				<div style="width: 360px; text-align: center">
+					<img src="assets/img/calendar.jpg" alt="calendar" class="mb" style="width: 100%; height: auto;">
+				</div>
+				<p class="text-base">Беташар - 19:00</p>
+				<p class="text-base">Той - 20:00</p>
+			</div>
+		</section>
+		
+		<section class="snap-section image-view">
+			<div class="content">
+				<h3 class="mb" style="text-align: center">Мекенжайымыз:</h3>
+				<p class="mb" style="text-align: center; font-family: 'Roboto Light', sans-serif">Қарағанды қаласы, <br>Инкарбаева 2Б көшесі, <br><b>Ариста рестораны</b>, <br>үлкен зал</p>
+				<div class="map">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d587.7619819836993!2d73.13020304625374!3d49.79150745978591!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x42434773b0d3acb5%3A0x128fc9669724e2b2!2sArista!5e0!3m2!1sru!2sus!4v1744473999755!5m2!1sru!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+			</div>
+		</section>
+		
+		<section class="snap-section image-view">
+			<div class="content">
+				<h3 class="mb">Той иелері:</h3>
+				<p class="text-base mb">Дархан - Гульмира</p>
+				<h5>Қуанышымызға ортақ болыңыздар!</h5>
+			</div>
+		</section>
+		
+		<section class="snap-section image-view">
+			<div class="content">
+				<h5 class=" mb">Төмендегі форманы толтырып,
+					тойға қатысуыңызды
+					растауыңызды сұраймыз:
+				</h5>
+				<h5 class=" mb">Тойға келесіз бе?</h5>
+				<form id="rsvpForm" class="mb" onsubmit="handleSubmit(event)">
+					<label for="fullName">Толық аты-жөніңізді жазыңыз:</label>
+					<input type="text" id="fullName" name="fullName" class="input-label" placeholder="Аты-жөніңіз" required>
+					<div style="display: block; justify-content: start">
+						<div style="margin-bottom: 16px;">
+							<input type="radio" id="yes" name="coming" value="yes" required>
+							<label for="yes">Әрине, келемін</label>
+						</div>
+						<div>
+							<input type="radio" id="no" name="coming" value="no" required>
+							<label for="no">Өкінішке орай, келе алмаймын</label>
+						</div>
+					</div>
+					<div id="submitArea">
+						<button type="submit">Жіберу</button>
+					</div>
+				</form>
+				
+				<h5 class="">Келіңіздер,
+					тойымыздың қадірлі қонағы болыңыздар!</h5>
+			</div>
+		</section>
+	</main>
+	
+	<script src="script.js"></script>
+</body>
+</html>
