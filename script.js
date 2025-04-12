@@ -7,7 +7,7 @@ form.addEventListener('submit', async (event) => {
     event.preventDefault();
 
     const fullName = document.getElementById('fullName').value.trim();
-    const coming = document.querySelector('input[name="coming"]:checked').id === 'comingYes';
+    const coming = document.querySelector('input[name="coming"]:checked').id === 'yes';
 
     const formData = {
         guest_full_name: fullName,
